@@ -1,0 +1,132 @@
+
+
+.banner {
+  display: flex;
+  justify-content: center;
+  font-family: 'Aref Ruqaa', serif;
+  font-size: 200%;
+  color: #6a605c;
+  margin: 0;
+}
+
+.mainHeader {
+  background-color: black;
+}
+
+.mainFooter {
+    position: absolute;
+    margin-top: 34vh;
+    width: 100%;
+    background-color: black;
+}
+
+.landing {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(106, 96, 92, .7);
+  animation: fadein 5s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/*Why is this text inheriting the opacity?*/
+.opaque {
+  font-family: 'Aref Ruqaa', serif;
+  opacity: 1;
+  color: black;
+  padding: 10em;
+  font-size: 300%;
+  padding: 0;
+}
+
+.appendHere {
+    margin-bottom: 20em;
+    margin-top: 20em;
+}
+
+.columnThree {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  align-content: space-between;
+
+}
+
+.threeColumn {
+  padding: 1em;
+
+}
+
+.rightCard {
+  /*display:flex;
+  justify-content: flex-end;*/
+  background-color: rgba(106, 96, 92, .5);
+  margin: 1em;
+  width: 15em;
+  height: 10em;
+}
+
+.leftCard {
+  /*display:flex;
+  justify-content: flex-start;*/
+  background-color: rgba(106, 96, 92, .5);
+  margin: 1em;
+  width: 15em;
+  height: 10em;
+}
+
+.centerCard {
+  background-color: rgba(106, 96, 92, .5);
+  margin: 1em;
+  margin-left: 3em;
+  margin-right: 3em;
+  width: 15em;
+  height: 10em;
+}
+
+/*Landing page buttons*/
+
+.projectsBtn {
+
+}
+
+.interestsBtn{
+
+}
+
+.aboutMeBtn {
+
+}
+
+/*.card {
+  background-color: rgba(128, 128, 128, .5);
+  margin: 1em;
+  width: 15em;
+  height: 10em;
+}*/
+
+/* The next 2 entries are referring to parallaxing the main image */
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("/images/2013-06-13 14.45.01.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+  margin:0;
+}
